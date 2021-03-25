@@ -1,0 +1,11 @@
+{
+  "name": "bitlovin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fellamedia/bitlovin.git",
+  "author": "toptech",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0"
+  }
+}
