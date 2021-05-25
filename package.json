@@ -6,8 +6,6 @@
   "author": "toptech",
   "license": "MIT",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.0.0",
-    "@openzeppelin/test-helpers": "^0.5.10",
-    "web3-utils": "^1.3.5"
+    "@truffle/hdwallet-provider": "^1.4.0"
   }
 }
