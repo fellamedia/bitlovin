@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Web3 from 'web3'
 import './App.css';
-import Color from '../abis/Color.json'
+import CRun from '../abis/CRun.json'
 
 class App extends Component {
 
@@ -30,9 +30,9 @@ class App extends Component {
     this.setState({ account: accounts[0] })
 
     const networkId = await web3.eth.net.getId()
-    const networkData = Color.networks[networkId]
+    const networkData = CRun.networks[networkId]
     if(networkData) {
-      const abi = Color.abi
+      const abi = CRun.abi
       const address = networkData.address
       const contract = new web3.eth.Contract(abi, address)
       this.setState({ contract })
@@ -79,7 +79,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Color Tokens
+            Tokens
           </a>
           <ul className="navbar-nav px-3">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">

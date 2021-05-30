@@ -22,3 +22,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/abis/*
+
+#mine
+backlog.md
+!src/abis/CRun.json
