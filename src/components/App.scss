@@ -1,17 +1,16 @@
 /* Styles go here */
+
 * {
   margin: 0;
 }
 
 .token-card {
+  img {
+    height: 150px;
+    width: 150px;
+  }
   background-color: #f2f2f2;
   display: inline-block;
   padding: 1em;
   margin-right: 1em;
 }
-
-.token-card img {
-  height: 150px;
-  width: 150px;
-}
-/*# sourceMappingURL=App.css.map */

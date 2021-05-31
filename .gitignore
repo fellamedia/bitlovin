@@ -27,4 +27,7 @@ src/abis/*
 
 #mine
 backlog.md
+**/*.css.map
+**/.secret
+
 !src/abis/CRun.json
